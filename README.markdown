@@ -17,10 +17,13 @@ http://storm.apache.org/downloads.html
 
 ## How to run topologies with Maven
 From the top level directory of storm project, run: 
+
 $ mvn clean install -DskipTests=true
 
 Then cd into the examples/storm-starter directory and run: 
+
 $ mvn compile exec:java -Dstorm.topology=storm.starter.[Topology Name]
+
 i.e. mvn compile exec:java -Dstorm.topology=storm.starter.CollaborativeNavigationTopology
 
 
