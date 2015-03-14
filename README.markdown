@@ -28,10 +28,10 @@ i.e. mvn compile exec:java -Dstorm.topology=storm.starter.CollaborativeNavigatio
 
 
 ## files added:
-In "storm-starter/src/jvm/storm/starter"
-  CollaborativeNavigationTopology.java
-In "storm-core/src/jvm/backtype/storm/testing"
-  TestDistanceSpout.java 
+* In "storm-starter/src/jvm/storm/starter"
+ * CollaborativeNavigationTopology.java
+* In "storm-core/src/jvm/backtype/storm/testing"
+ * TestDistanceSpout.java 
  
 
 ## License
